@@ -15,6 +15,7 @@ body{
     width: 100%;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
+    margin: 0;
 
 }
 
@@ -342,6 +343,7 @@ color: var(--Lapis-lazuli);
 .section_footer{
     background-color: var(--Eerie-black);
     margin-top: -100px;
+    /* width: 98%; */
 
 }
 
@@ -655,6 +657,11 @@ ul{
         margin: 0 auto;
         width: 70%;
     }
+
+    /* .footer{
+        width: 100%;
+        margin-left: 0%;
+    } */
     
 }   
 
