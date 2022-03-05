@@ -16,9 +16,9 @@
                 <div class="section_1_list">
                     
                     <ul class="lista_1">
-                        <li>Nuestra fundación</li>
-                        <li>Animales en adopción</li>
-                        <li>Contacto</li>
+                        <li class="oscuro">Nuestra fundación</li>
+                        <a href="#requisitos"><li class="oscuro">Requisitos para adoptar</li></a>
+                        <a href="#contacto"><li class="oscuro">Contacto</li></a>
                         <LI><button class="button_nav">DONAR</button></LI>
                     </ul>
                 </div>
@@ -35,9 +35,9 @@
 
                     <input type="checkbox" id="menu-toggle" class="menu-toggle">
                     <ul class="toggle">
-                        <li>Nuestra fundación</li>
-                        <li>Animales en adopción</li>
-                        <li>Contacto</li>
+                        <li class="claro">Nuestra fundación</li>
+                        <a href="#requisitos"><li class="claro">Requisitos para adoptar</li></a>
+                        <a href="#contacto"><li class="claro">Contacto</li></a>
                     </ul>
                 </div>
                 
@@ -45,10 +45,10 @@
         </div>
         
         <div class="section_2">
-            <div class="section_2_text">
-                <h1>Adopta a tu compañero de vida. </h1>
+            <div class="section_2_text claro">
+                <h1 class="claro">Adopta a tu compañero de vida. </h1>
                 <h2 class="no_compres">¡No compres!</h2>
-                <p>Muchos animalitos esperan ansiosamente una familia definitiva, que les den el amor que se merecen. 
+                <p class="claro">Muchos animalitos esperan ansiosamente una familia definitiva, que les den el amor que se merecen. 
                 </p>
 
                 <p class="none_mobile none_1000px">Estamos comprometidos para que cada miembro que se nos une pueda conseguir un hogar digno.</p>
@@ -59,23 +59,23 @@
             <img class="banner_1" src="./Images/BANNER_1.png" alt="">
         </div>
 
-        <div class="section_3">
+        <div class="section_3 ">
 
-            <div class="section_3_rescatados card">
-                <div class="info">
+            <div class="section_3_rescatados card " id="rescatados">
+                <div  class="info claro">
                     <h2>Nuestros rescatados</h2>
                     <p>Conoce los animalitos en adopción</p>
                 </div>
             </div>
                         
             <div class="section_3_campañas card card-1">
-                <div class="info">
+                <div class="info claro">
                     <h2>Campañas de adopción</h2>
                     <p>Conoce las fechas de los encuentros</p>
                 </div>
             </div>
             <div class="section_3_transito card card-1">
-                <div class="info">
+                <div class="info claro">
                     <h2>Se hogar de transito</h2>
                     <p>Sin los hogares de transitos no podriamos hacer lo que hacemos. <span class="sumate"> ¡Sumate!</span></p>
                 </div>
@@ -84,19 +84,19 @@
             
         </div>
 
-        <div class="section_4">
-            <h2>¿Qué necesitas para adoptar?</h2>
-            <div class="section_4_edad section_4_card">
+        <div id="requisitos" class="section_4">
+            <h2 class="oscuro">¿Qué necesitas para adoptar?</h2>
+            <div class="section_4_edad section_4_card oscuro">
                 <img src="./Images/25-icono.png" alt="">
                 <h3>Edad requerida</h3>
                 <p>Debes tener 25 años o más para poder adoptar. </p>
             </div>
-            <div class="section_4_economia section_4_card">
+            <div class="section_4_economia section_4_card oscuro">
                 <img src="./Images/economia-icono.png" alt="">
                 <h3>Estabilidad economica</h3>
                 <p>Adoptar una mascota conlleva un gasto y es una responsabilidad de por vida, por eso es importante que cuentes con la capacidad economica para mantenerlo. ¡Promovemos la adopción responsable! </p>
             </div>
-            <div class="section_4_zona section_4_card">
+            <div class="section_4_zona section_4_card oscuro">
                 <img src="./Images/direccion-icono.png" alt="">
                 <h3>Vivir en CABA o cercanias</h3>
                 <p>Nuestras campañas de adopción y rescatados se encuentran en CABA. Contamos con traslado dentro de capital o zonas aledañas.</p>
@@ -104,12 +104,55 @@
         </div>
 
 
+        <form id="contacto" autocomplete="off" class="formulario-contacto">
+            
+            <div class="form">
+                <div class="mensaje-contacto">
+                    <h2 class="contactanos oscuro">Siempre estaremos encantados de leerte</h2>
+                    <img class="img_patitas_contacto" src="./Images/contactanos.png" alt="">
+                </div>
+                <div class="info_form">
+                    
+
+                    <div class="nombre oscuro" >
+                        <!-- <label class="label" for="nombre">Nombre*</label> -->
+                        <input placeholder="Nombre y Apellido" class="input-nombre" type="text" name="nombre" required>
+                    </div>
+                    
+                    
+                    <div class="telefono oscuro">
+                        <!-- <label for="telefono">Numero de telefono*</label> -->
+                        <input placeholder="Numero de telefono" class="input-telefono" type="text" name="telefono" required>
+                    </div>
+                    
+                    <div class="email oscuro">
+                        <!-- <label for="email">Correo electronico*</label> -->
+                        <input placeholder="Correo electronico" class="input-email" type="email" required>
+                    </div>
+            
+                    <div class="oscuro">
+                        <!-- <label for="mensaje">Escribe tu mensaje:</label> -->
+                        <input placeholder="Escribe aqui tu mensaje..." class="input-mensaje" type="text">
+                    </div>
+                    <div class="estado-mensaje"></div>
+                    <input class="boton-enviar-formulario" type="submit" value="Enviar mensaje">
+                </div>
+            </div>
+            
+    
+           
+            </div>
+        </form>
+    
+    </div>
+
+
     </main>
 
-    <footer class="footer">
+    <footer class="footer claro">
 
         <div class="section_5">
-            <div class="section_5_formulario">
+            <div class="section_5_formulario claro">
                 <h2>¿Cumples los requisitos y quieres adoptar? </h2>
                 <p>¡Completa el formulario de adopción!</p>
             </div>
@@ -145,7 +188,73 @@
         </div>
     </footer>
 
+    <div class="modal_nuestros_rescatados">
 
+        <div class="container_rescatados">
+            <a href=""><img class="fa_fa_x" src="./Images/rescatados/letra-x.png" alt=""></a>
+            <div id="rescatado_1" class="imagen_rescatado">
+                <img src="./Images/rescatados/cook.jpg" alt="">
+                <div id="texto_rescatado_1" class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div id="rescatado_2" class="imagen_rescatado">
+                <img src="./Images/rescatados/felix.png" alt="">
+                <div id="texto_rescatado_2" class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div class="imagen_rescatado">
+                <img src="./Images/rescatados/linda.jpg" alt="">
+                <div class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div class="imagen_rescatado">
+                <img src="./Images/rescatados/linda.jpg" alt="">
+                <div class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div class="imagen_rescatado">
+                <img src="./Images/rescatados/luna.jpg" alt="">
+                <div class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div class="imagen_rescatado">
+                <img src="./Images/rescatados/roco.jpg" alt="">
+                <div class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div class="imagen_rescatado">
+                <img src="./Images/rescatados/cook.jpg" alt="">
+                <div class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <div class="imagen_rescatado">
+                <img src="./Images/rescatados/felix.png" alt="">
+                <div class="texto_rescatado">
+                    <h3>Felix</h3>
+                    <p>Macho de 2 añitos.</p>
+                </div>
+            </div>
+            <a href="">Ver más</a>
+        </div>
+
+        
+    </div>
+
+    <script src="./app.js"></script>
 
 </body>
 </html>
