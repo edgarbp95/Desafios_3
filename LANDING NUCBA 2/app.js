@@ -67,6 +67,8 @@ rescatados.addEventListener("click",()=>{
    
 })
 
+let modal = document.querySelector(".modal_nuestros_rescatados");
+
 let cerrarModalRescatados = document.querySelector(".fa_fa_x");
 
 cerrarModalRescatados.addEventListener("click",()=>{
