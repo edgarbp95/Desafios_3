@@ -613,6 +613,7 @@ form input{
         margin-left: 60px;
         margin-right: 60px;
     }
+    
 
     .banner_1{
         width:450px;
@@ -654,11 +655,58 @@ form input{
     .section_5 h2{
         font-size: 1.5rem;
     }
+
+    .container_rescatados{
+       height: 500px;
+        width: 800px;
+    }
+
+    .imagen_rescatado img{
+        width: 120px;
+        height: 150px;
+    }
+
+    .container_rescatados a{
+        margin-left: 45px;
+    }
+   
+    .texto_rescatado{
+        width: 110px;
+        font-size: 12px;
+        margin-top: -62px;
+    }
+        
+    .fa_fa_x{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
 }
 
 
 @media only screen and (min-width:768px) and (max-width:1020px){
 
+    .container{
+        margin-left: 0;
+        margin-right: 0px;
+    }
+
+    .none_mobile{
+        display: none;
+    }
+
+    .card-1{
+        height: 200px;
+    }
+
+    .section_4_card{
+        height: 300px;
+    }
+
+    .barrita_nav{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
     .none_1000px{
         display: none;
     }
@@ -667,8 +715,49 @@ form input{
         width: 350px;
     }
 
+    .section_3{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .section_4{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .formulario-contacto{
+        margin-left: 40px;
+        margin-right: 40px;        
+    }
+    
+    .section_2{
+        /* flex-direction: column; */
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .section_2_text p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info p{
+        display: none;
+    }
+    
+    .info h2{
+        text-transform: uppercase;
+        width: 70%;
+        text-align: center;
+    }
+
     .section_2_text h1{
         font-size: 1.6rem;
+        text-transform: uppercase;
     }
 
     .section_2_text h2{
@@ -735,9 +824,35 @@ form input{
         gap: 2em;
     }
 
+    .container_rescatados{
+        height: 400px;
+         width: 600px;
+     }
+ 
+     .imagen_rescatado img{
+         width: 100px;
+         height: 120px;
+     }
+ 
+     .container_rescatados a{
+         margin-left: 45px;
+     }
+    
+     .texto_rescatado{
+         width: 110px;
+         font-size: 12px;
+         margin-top: -62px;
+     }
+         
+     .fa_fa_x{
+         margin-top: 10px;
+         margin-left: 0;
+     }
+
 }
 
 @media only screen and (min-width:1800px) {
+    
 
     .container{
         margin-left: 350px;
@@ -765,20 +880,39 @@ form input{
 }
 
 @media only screen and (max-width:768px) {
+    
+    
     .container{
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 0;
+        margin-right: 0;
         overflow: hidden;
     }
 
     .section_2{
         display: flex;
         flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+        
+    }
+    
+    /* .info p{
+        display: none;
+    } */
+
+    .section_2 h1{
+        text-transform: uppercase;
+    }
+
+    .section_2 h2{
+        display: none;
     }
 
     .section_3{
         display: grid;
         grid-template-columns: 1fr;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .section_3_rescatados{
@@ -788,6 +922,27 @@ form input{
     .section_4{
         display: flex;
         flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .form{
+        margin-top: 0;
+    }
+
+    .contactanos{
+        font-size: 2rem;
+    }
+
+    .formulario-contacto{
+        margin-left: 30px;
+        margin-right: 30px;
+            
+    }
+
+    .formulario-contacto input{
+        width: 280px;
+        font-size: 0.8rem;
     }
     
     .footer_1 img{
@@ -914,7 +1069,12 @@ form input{
     }
 
     .section_2_text button{
-        width: 80%;
+        width: 200px;
+    }
+
+    .barrita_nav{
+        margin-left: 30px;
+        margin-right: 30px;
     }
     
     .section_2_text{
@@ -930,9 +1090,10 @@ form input{
     }
     
     .card p{
-        font-size: 0.8rem;
+        font-size: 1rem;
         width: 50%;
     }
+
 
     .section_4 h2{
         font-size: 2rem;
@@ -982,7 +1143,7 @@ form input{
 
     .banner_1{
         margin: 0 auto;
-        width: 70%;
+        width: 320px;
     }
 
     .form{
@@ -998,9 +1159,39 @@ form input{
         
     }
 
-    .formulario-contacto{
-        height: 100vh;
-    }
+    .container_rescatados{
+        height: 600px;
+        width: 310px;
+        grid-template-columns: 1fr 1fr;
+        
+     }
+ 
+     .imagen_rescatado img{
+         width: 90px;
+         height: 110px;
+     }
+ 
+     .container_rescatados a{
+         margin-left: 45px;
+         grid-column: 2;
+         margin: -20px -20px 0 0;
+         font-size: 0.9rem;
+     }
+    
+     .texto_rescatado{
+         width: 110px;
+         font-size: 12px;
+         margin-top: -62px;
+     }
+         
+     .fa_fa_x{
+         position: relative;
+         top: 15px;
+         left: 5px;
+         width: 13px;
+         
+     }
+
     
 }   
 
