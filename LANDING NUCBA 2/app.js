@@ -121,7 +121,7 @@ cerrarModalTransito.addEventListener("click",()=>{
 })
 
 document.getElementById("boton_transita_ya").addEventListener("click",()=>{
-    modalCampaña.style.display = "none";
+    modalTransito.style.display = "none";
     enableScroll();
     window.location.href="#contacto"
 })
