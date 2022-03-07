@@ -91,3 +91,31 @@ for(let i=0;i<imagenes.length;i++){
     textos[i].style.display = "none"
 })
 }
+
+const modalCampaña = document.querySelector(".modal_campañas");
+const modalTransito = document.querySelector(".modal_transito");
+
+
+document.getElementById("campañas").addEventListener("click",()=>{
+    modalCampaña.style.display = "flex"
+    disableScroll();
+})
+
+document.getElementById("transito").addEventListener("click",()=>{
+    modalTransito.style.display = "flex"
+    disableScroll();
+})
+
+const cerrarModalCampañas = document.getElementById("cerrar_campañas");
+
+cerrarModalCampañas.addEventListener("click",()=>{
+    modalCampaña.style.display = "none";
+    enableScroll();
+})
+
+const cerrarModalTransito = document.getElementById("cerrar_transito");
+
+cerrarModalTransito.addEventListener("click",()=>{
+    modalTransito.style.display = "none";
+    enableScroll();
+})
