@@ -1309,6 +1309,7 @@ form input{
     .texto_transito p{
         margin: 0;
         font-size: 1.3rem;
+        color: var(--iceberg);
     }
     
     .texto_transito button{
