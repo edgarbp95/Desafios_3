@@ -464,6 +464,7 @@ form input{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
     color: var(--white);
     margin-left: 5px;
+    cursor: pointer;
 }
 
 
