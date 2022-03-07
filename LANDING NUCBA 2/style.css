@@ -1314,6 +1314,8 @@ form input{
     .texto_transito button{
         font-size: 0.9rem;
         margin-top: 15px;
+        background-color: var(--Eerie-black);
+        color: var(--white);
     }
 
     .hogar_transito{
