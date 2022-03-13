@@ -6,13 +6,14 @@ body {
     background-color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .texto{
     font-size: 3rem;
     color: white;
     font-weight: 200;
-    margin: 0 100px;
+    margin: 200px;
     
 }
 
@@ -31,5 +32,27 @@ p{
 }
 
 @media only screen and (max-width:500px){
+    .texto{
+        margin-left: 50px;
+        margin-right: 20px;
+        font-size: 1.8rem;
+    }
+    body{
+        background-image: url(./3d-rendered-black-geometric-product-stand-dark-corner-background-with-white-neon-light_167650-1124.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -170px;
+    }
+    .txt2{
+        font-size: 1.2rem;
+    }
+
+    #texto-cambiante{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    
+    
     
 }
