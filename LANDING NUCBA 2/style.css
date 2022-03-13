@@ -16,6 +16,11 @@
     margin-right: 0;
 }
 
+.no_compres{
+    border-right: 1.5px solid white;
+    display: inline;
+}
+
 a{
     text-decoration: none;
     color: var(--Eerie-black);

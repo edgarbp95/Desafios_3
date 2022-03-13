@@ -125,3 +125,4 @@ document.getElementById("boton_transita_ya").addEventListener("click",()=>{
     enableScroll();
     window.location.href="#contacto"
 })
+
