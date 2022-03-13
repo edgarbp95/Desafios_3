@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -14,7 +19,6 @@ body {
     color: white;
     font-weight: 200;
     margin: 0 100px;
-    
 }
 
 .txt2{
