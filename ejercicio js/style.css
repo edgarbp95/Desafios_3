@@ -11,6 +11,10 @@ body {
     background-color: black;
     display: flex;
     align-items: center;
+    background-image: url(./EDUCACIÓN.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+   
     
 }
 
